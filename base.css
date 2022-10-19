@@ -1,0 +1,40 @@
+* {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+
+    line-height: 1.6rem;
+    box-sizing: border-box;
+
+}
+
+
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+html .active {
+    background-color: white;
+    color: rgb(16, 16, 134) !important;
+
+}
+
+html .active1 {
+    display: block;
+}
